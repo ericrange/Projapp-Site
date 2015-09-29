@@ -1,0 +1,9 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Arial; }
+
+#container {
+  width: 1024px; }
+
+/*# sourceMappingURL=styles.min.css.map */
