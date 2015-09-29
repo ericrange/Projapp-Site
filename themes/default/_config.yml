@@ -2,6 +2,8 @@
 menu:
   Home: /
   Contact: /contact
+  Login: /login
+  Impressum: /impressum
 
 # Miscellaneous
 google_analytics:

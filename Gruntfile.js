@@ -1,6 +1,13 @@
 module.exports = function(grunt) {
   grunt.initConfig({
 
+    watch: {
+      styles: {
+        files: ['themes/default/styles/**/*.scss'],
+        tasks: ['sass']
+      }
+    },
+
     sass: {
       dist: {
         files: {
@@ -23,8 +30,10 @@ module.exports = function(grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks('grunt-contrib-sass');
 
-  grunt.registerTask("default", ["sass"]);
+  //grunt.registerTask("watch", ["watch"]);
+  grunt.registerTask("default", ["watch"]);
 }
