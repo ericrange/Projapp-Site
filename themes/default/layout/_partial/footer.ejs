@@ -1,6 +1,15 @@
-<footer id="footer">
-  <div class="outer">
-    <div id="footer-info" class="inner">
-    </div>
+<footer class="footer">
+  <div class="container">
+    <nav class="footer-nav">
+      <ul class="nav-items">
+        <% for (var i in theme.menu){ %>
+          <li class="nav-item">
+            <a href="<%- url_for(theme.menu[i]) %>">
+              <%= i %>
+            </a>
+          </li>
+          <% } %>
+      </ul>
+    </nav>
   </div>
 </footer>
