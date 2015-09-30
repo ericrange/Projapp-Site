@@ -14,6 +14,9 @@ a {
 .slide {
   padding: 50px 0; }
 
+.container {
+  width: 1024px; }
+
 .hero {
   background-color: #ddd;
   position: absolute;
@@ -21,9 +24,10 @@ a {
   height: 100%;
   min-height: 400px;
   top: 0;
-  background: url("http://ironsummitmedia.github.io/startbootstrap-grayscale/img/intro-bg.jpg") no-repeat;
+  background: url("/images/hero.jpg") no-repeat;
   background-size: cover;
-  background-position: 50%; }
+  background-position: 50%;
+  border-bottom: solid 5px #00a6b3; }
   .hero .content {
     position: relative;
     top: 50%;
