@@ -12,7 +12,6 @@
     clear: both;
   }
 }
-
 *,
 *::before,
 *::after {
@@ -36,8 +35,8 @@ a {
   padding: 100px 30px;
   text-align: center;
   .title {
-        font-size: 2.5em;
-        font-weight: normal;
+    font-size: 2.5em;
+    font-weight: normal;
   }
   .sub {
     margin-bottom: 75px;
@@ -60,12 +59,13 @@ a {
     .title {
       font-size: 2em;
       margin-bottom: 10px;
+      font-weight: normal;
     }
     .description {
       padding: 0 20px;
-    color: #555;
-    line-height: 1.6em;
-    font-size: 1.2em;
+      color: #555;
+      line-height: 1.6em;
+      font-size: 1.2em;
     }
   }
 }
