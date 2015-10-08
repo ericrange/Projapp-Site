@@ -39,9 +39,12 @@ a {
     font-weight: 100;
   }
   .sub {
-    margin: 5px 0 75px;
-    font-size: 1.3em;
+    margin: 10px 0 75px;
+    font-size: 1.4em;
     color: #00a6b3;
+  }
+  .container:not(:last-child) {
+    margin-bottom: 45px;
   }
 }
 .container {
@@ -55,7 +58,7 @@ a {
       margin-bottom: 20px;
     }
     .title {
-      font-size: 2em;
+      font-size: 1.9em;
       margin-bottom: 10px;
       font-weight: 100;
     }
