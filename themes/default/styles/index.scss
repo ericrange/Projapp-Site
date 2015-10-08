@@ -20,7 +20,7 @@
   margin: 0;
 }
 * {
-  font-family: 'Open Sans', Arial;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 a {
@@ -36,12 +36,12 @@ a {
   text-align: center;
   .title {
     font-size: 2.5em;
-    font-weight: normal;
+    font-weight: 100;
   }
   .sub {
-    margin-bottom: 75px;
+    margin: 5px 0 75px;
     font-size: 1.3em;
-    color: #999;
+    color: #00a6b3;
   }
 }
 .container {
@@ -57,11 +57,11 @@ a {
     .title {
       font-size: 2em;
       margin-bottom: 10px;
-      font-weight: normal;
+      font-weight: 100;
     }
     .description {
       padding: 0 20px;
-      color: #555;
+      color: #999;
       line-height: 1.6em;
       font-size: 1.2em;
     }
@@ -100,26 +100,29 @@ a {
     @include vertical-align(relative);
     @include clearfix();
     text-align: center;
-    margin-top: -35px;
+    margin-top: -40px;
     padding: 15px;
   }
   .name,
   .button {
     text-transform: uppercase;
   }
-  .name {
-    font-size: 7em;
+  .name,
+  .description {
     color: #fff;
+    font-weight: 100;
+  }
+  .name {
+    font-size: 6em;
+  }
+  .description {
+    font-size: 2em;
   }
   .button {
-    font-size: 1.1em;
-    top: 30px;
+    font-size: 1.3em;
+    top: 45px;
     position: relative;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    .icon {
-      margin-right: 5px;
-    }
+    font-weight: 400;
   }
 }
 .main {
@@ -127,14 +130,14 @@ a {
 }
 .main-nav {
   float: right;
-  padding: 30px;
+  padding: 30px 40px;
 }
 .nav-item {
   float: left;
   list-style: none;
   color: #fff;
-  font-size: 1.1em;
-  margin-left: 15px;
+  font-size: 1.2em;
+  margin-left: 30px;
 }
 .header {
   z-index: 9;
@@ -142,7 +145,7 @@ a {
 }
 .button {
   padding: 15px 20px;
-  font-weight: bold;
+  font-weight: 500;
   border: solid 2px #fff;
   color: #fff;
   white-space: nowrap;
