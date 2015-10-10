@@ -27,6 +27,7 @@ a {
   text-decoration: none;
   color: inherit;
   font-size: inherit;
+  outline: none;
 }
 .home {
 
@@ -111,7 +112,7 @@ a {
     @include vertical-align(relative);
     @include clearfix();
     text-align: center;
-    margin-top: -40px;
+    margin-top: -35px;
     padding: 15px;
   }
   .name,
