@@ -99,6 +99,14 @@ a {
   background-size: cover;
   background-position: 50%;
   border-bottom: solid 5px #00a6b3;
+  &:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+  }
   .content {
     @include vertical-align(relative);
     @include clearfix();
